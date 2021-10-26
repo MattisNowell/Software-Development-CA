@@ -1,8 +1,8 @@
 
 class Player implements Runnable{
 
-    Int[] hand = {};
-    Int totalWeight = 0;
+    private Int[] hand;
+    private Int totalWeight;
 
     Player() {
         this.hand = takeTen();
@@ -33,6 +33,6 @@ class Player implements Runnable{
     }
 
     public Int getWeight() {
-        
+
     }
  }
