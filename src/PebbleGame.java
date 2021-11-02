@@ -17,13 +17,12 @@ public class PebbleGame {
 
         // System.out.println("Number of players is : " + numberOfPlayers);  
 
-        try{
+        try {
             int num=Integer.parseInt (numberOfPlayers) ;         
             return num;
-             }
-        catch(NumberFormatException e){
+        } catch(NumberFormatException e) {
              return -1;
-              }
+        }
     }
 
     public int higher(int x, int y) {

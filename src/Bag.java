@@ -7,6 +7,6 @@ class Bag {
     }
 
     public boolean isEmpty() {
-
+        return true;
     }
 }                       

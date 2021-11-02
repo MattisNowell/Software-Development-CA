@@ -13,7 +13,8 @@ class Player implements Runnable{
     }
 
     public int[] takeTen() {
-        
+        int[] arr={1,2};
+        return arr;
     }
 
     public void discardPebble(int pebble) {
@@ -25,14 +26,15 @@ class Player implements Runnable{
     }
 
     public boolean checkHand() {
-
+        return false;
     }
 
     public int[] getHand() {
+        return hand;
 
     }
 
     public int getWeight() {
-
+        return totalWeight;
     }
  }
