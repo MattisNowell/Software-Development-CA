@@ -5,16 +5,16 @@ class Player implements Runnable{
     private int totalWeight;
 
     Player() {
-        this.hand = takeTen();
+
     }
 
     public void run(){
 
     }
 
-    public int[] takeTen() {
-        int[] arr={1,2};
-        return arr;
+    public int[] takeTen(BlackBag bag) {
+        this.hand = bag.giveTen();
+        return hand;
     }
 
     public void discardPebble(int pebble) {

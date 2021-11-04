@@ -1,5 +1,6 @@
-class WhiteBag extends Bag{
+class WhiteBag {
 
+    private int[] pebbles;
     public BlackBag linkedBlackBag;
 
     WhiteBag(){
@@ -15,5 +16,19 @@ class WhiteBag extends Bag{
 
     public void linkToBlackBag() {
 
+    }
+
+    public void setPebbles(int[] pebbles) {
+        this.pebbles = pebbles;
+    }
+
+    public int[] getPebbles() {
+        return pebbles;
+    }
+
+    public boolean isEmpty() {
+        if(pebbles.length == 0)
+            return true;
+        return false;
     }
 }
