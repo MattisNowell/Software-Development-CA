@@ -5,7 +5,7 @@ class BlackBag{
 
     ArrayList<Integer> pebbles = new ArrayList<Integer>();
     public WhiteBag linkedWhiteBag;
-    
+
     BlackBag(){
 
     }
@@ -14,7 +14,7 @@ class BlackBag{
     }
 
     public int[] giveTen(){
-        int[] hand = new int[10]; 
+        int[] hand = new int[10];
         for(int i = 0; i < 10; i++) {
             int randomInteger = (int)(Math.random() * (pebbles.size())+1);
             hand[i] = pebbles.get(randomInteger);

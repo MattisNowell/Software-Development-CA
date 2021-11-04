@@ -37,4 +37,4 @@ class Player implements Runnable{
     public int getWeight() {
         return totalWeight;
     }
- }
+}
